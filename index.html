@@ -1,43 +1,204 @@
 <!DOCTYPE html>
-<html lang="es">  
-  <head>    
-    <title>Título de la WEB</title>    
-    <meta charset="UTF-8">
-    <meta name="title" content="Título de la WEB">
-    <meta name="description" content="Descripción de la WEB">    
-    <link href="https://github.com/alejandrogiubel/alejandrogiubel.github.io/blob/master/main.css" rel="stylesheet" type="text/css"/>    
-  </head>  
-  <body>    
-    <header>
-      <h1>Título de la WEB</h1>      
-    </header>    
-    <nav>
-      <a href="http://dominio.com/seccion2.html">IR SECCIÓN 2</a>
-      <a href="http://dominio.com/seccion2.html">IR SECCIÓN 3</a>
+<html lang="es">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Alejandro Giubel Hernández Arbelo</title>
+  <meta name="description" content="">
+  <meta name="Alejandro Giubel Hernández Arbelo" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/my_style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <header>
+    <nav class="navbar"
+      style="position: fixed;">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="#bio">Bio</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#educacion">Educación</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#objetivos">Objetivos</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#contacto">Contactos</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <section>      
-      <article>
-        <h2>CONTENIDO PRINCIPAL</h2>
-        <p>Este es el contenido principal de mi web</p>
-        <div>
-          <p>Aquí tenéis una imagen.</p>
-          <img src="http://dominio.com/imagen.jpg" alt="paisaje">          
-        </div>
-      </article>      
+  </header>
+
+  
+  <main class="container" style="padding-top: 6.5rem;">
+    <!-- Seccion de la biografia -->
+    <section id="bio">
+      <div class="docs-section">
+        <h3 class="docs-header">Biografía</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus vel architecto harum repellendus ratione voluptates, error perspiciatis fugiat? Ratione, expedita mollitia? Omnis corporis distinctio, in quo voluptates quae suscipit.</p>
+      </div>
     </section>
-    <aside>
-      <h3>Banner de publicidad</h3>
-      <a href="http://dominio-externo.com">
-        <img src="http://dominio.com/banner-publicidad.png" alt="banner de publicidad">
-      </a>
-      <h3>Testimonios</h3>
-      <p>Me gusta mucho esta página.</p>
-    </aside>
-    <footer>
-      <h4>Avisos legales</h4>
-      <a href="http://dominio.com/aviso-legal">Política de cookies</a>
-      <h4>Redes sociales</h4>
-      <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
-    </footer>
-  </body>  
+
+    <!-- Seccion de la educacion -->
+    <section id="educacion">
+      <div class="docs-section">
+        <h3 class="docs-header">Educación</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus vel architecto harum repellendus ratione voluptates, error perspiciatis fugiat? Ratione, expedita mollitia? Omnis corporis distinctio, in quo voluptates quae suscipit.</p>
+      </div>
+    </section>
+
+    <!-- Seccion de los objetivos -->
+    <section id="objetivos">
+      <div class="docs-section">
+        <h3 class="docs-header">Objetivos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus vel architecto harum repellendus ratione voluptates, error perspiciatis fugiat? Ratione, expedita mollitia? Omnis corporis distinctio, in quo voluptates quae suscipit.</p>
+      </div>
+    </section>
+
+    <!-- Seccion de las habilidades -->
+    <section id="habilidades">
+      <div class="docs-section">
+        <h3 class="docs-header">Habilidades</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus vel architecto harum repellendus ratione voluptates, error perspiciatis fugiat? Ratione, expedita mollitia? Omnis corporis distinctio, in quo voluptates quae suscipit.</p>
+      </div>
+
+      <codersrank-widget
+        username="alejandrogiubel"
+        layout="vertical"
+        badges="3"
+        style="padding-bottom: 5rem;"
+      >
+      </codersrank-widget>
+    </section>
+
+    <!-- Seccion de los proyectos -->
+    <section id="proyectos">
+      <div class="docs-section">
+        <h3 class="docs-header">Proyectos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus vel architecto harum repellendus ratione voluptates, error perspiciatis fugiat? Ratione, expedita mollitia? Omnis corporis distinctio, in quo voluptates quae suscipit.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contacto" style="background-color: #20324D; height: 50rem;">
+    <div class="container">
+      <div class="row">
+
+        <!-- Contactos -->
+        <div class="six columns">
+          <div class="docs-section">
+            <h4 class="white docs-header">Contactos</h4>
+
+            <!-- Telefono -->
+            <div class="row">
+              <div class="three columns">
+                <img src="images/phone.png" alt="phone" style="height: 3rem; width: 3rem;">
+              </div>
+
+              <div class="nine columns">
+                <h6 class="white">(+53) 5 371 6804</h6>
+              </div>
+            </div><!-- Telefono -->
+
+            <!-- Correo -->
+            <div class="row">
+              <div class="three columns">
+                <img src="images/mail.png" alt="mail" style="height: 3rem; width: 3rem;">
+              </div>
+
+              <div class="nine columns">
+                <a href="mailto:agiubel@gmail.com"><h6 class="white">agiubel@gmail.com</h6></a>
+              </div>
+            </div><!-- Correo -->
+            
+            <!-- Telegram -->
+            <div class="row">
+              <div class="three columns">
+                <img src="images/telegram.png" alt="Telegram" style="height: 3rem; width: 3rem;">
+              </div>
+
+              <div class="nine columns">
+                <h6 class="white">@agiubel</h6>
+              </div>
+            </div><!-- Telegram -->
+
+          </div>
+        </div>
+  
+        <!-- Enlaces de interes -->
+        <div class="six columns">
+          <div class="docs-section">
+            <h4 class="white docs-header">Enlaces de interés</h4>
+
+            <!-- Github -->
+            <div class="row">
+              <div class="three columns">
+                <img src="images/github.png" alt="github" style="height: 3rem; width: 3.5rem;">
+                
+              </div>
+
+              <div class="nine columns">
+                <a href="https://github.com/alejandrogiubel"><h6 class="white">Repositorio Github</h6></a>
+              </div>
+            </div><!-- Github -->
+
+            <!-- GGJ -->
+            <div class="row">
+              <div class="three columns">
+                <img src="images/ggj.png" alt="github" style="height: 3rem; width: 3rem;">
+                
+              </div>
+
+              <div class="nine columns">
+                <a href="https://globalgamejam.org/users/alejandro-hern%C3%A1ndez-arbelo"><h6 class="white">Global Game Jam</h6></a>
+              </div>
+            </div><!-- GGJ -->
+
+          </div>
+        </div><!-- Enlaces de interes -->
+
+      </div>
+    </div>
+  </footer>
+
+ 
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://profile.codersrank.io/widget/widget.js"></script>
+</body>
 </html>
